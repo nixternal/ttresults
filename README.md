@@ -3,22 +3,19 @@ A simple Python script that reads in a Google Docs spreadsheet and creates an
 HTML file with results grouped by gender and age groups.
 
 ## Dependencies
-    - [Google Data Python client
-      library](http://code.google.com/p/gdata-python-client)
-    - Python >= 2.6
+- [Google Data Python client library](http://code.google.com/p/gdata-python-client)
+- Python >= 2.6
 
 ## Use
     $ ./ttresults.py --user [username] --pw [password] --name [realname] --email [email address]
 
-    - username: your gmail username
-    - password: your gmail password (if you have special characters, place
-      password in quotes)
-    - realname: your real name (if using first & last name, place them in
-      quotes)
-    - email address: your email address
+- username: your gmail username
+- password: your gmail password (if you have special characters, place password in quotes)
+- realname: your real name (if using first & last name, place them in quotes)
+- email address: your email address
 
 ## Authors
- * Richard A. Johnson
+- Richard A. Johnson
 
 ## License
 (The GNU General Public License)
