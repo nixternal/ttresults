@@ -1,0 +1,67 @@
+.ui-tabs-nav {
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+.ui-tabs-nav li {
+    margin-right:.33em;
+    padding:0;
+}
+
+.ui-tabs-nav a {
+    font-size:77%;
+}
+
+.ui-tabs-nav a,.ui-tabs-nav .ui-tabs-selected a,.ui-tabs-nav a:hover,.ui-tabs-nav .ui-tabs-selected a:hover,.ui-tabs-nav a:focus,.ui-tabs-nav .ui-tabs-selected a:focus {
+background:#ccc url(../img/tr_999.gif) no-repeat top right;
+color:#666;
+}
+
+.ui-tabs-nav a span,.ui-tabs-nav .ui-tabs-selected a span,.ui-tabs-nav a:hover span,.ui-tabs-nav .ui-tabs-selected a:hover span,.ui-tabs-nav a:focus span,.ui-tabs-nav .ui-tabs-selected a:focus span {
+background:transparent url(../img/tl_999.gif) no-repeat;
+}
+
+.ui-tabs-nav .ui-tabs-selected a,.ui-tabs-nav .ui-tabs-selected a:hover,.ui-tabs-nav .ui-tabs-selected a:focus {
+color:#999;
+background-color:#F2F3F5;
+}
+
+.ui-tabs-panel {
+border:none;
+padding:0;
+}
+
+.ui-tabs-panel .ui-tabs-nav a {
+font-weight:400;
+}
+
+.ui-tabs-panel .ui-tabs-selected a,.ui-tabs-panel .ui-tabs-selected a:hover,.ui-tabs-panel .ui-tabs-selected a:focus {
+    font-size: 85%;
+font-weight:800;
+}
+
+.ui-tabs-panel .ui-tabs-nav {
+float:left;
+width:100%;
+background:#F2F3F5;
+margin:0 0 1em;
+padding:.6em 0 .6em .4em;
+}
+
+.ui-tabs-panel .ui-tabs-nav a,.ui-tabs-panel .ui-tabs-nav a:hover,.ui-tabs-panel .ui-tabs-nav a:focus {
+background:#F2F3F5;
+background-image:none;
+color:#06c;
+}
+
+.ui-tabs-panel .ui-tabs-nav li {
+border-right:solid 1px #ccc;
+}
+
+.ui-tabs-panel .ui-tabs-nav a span,.ui-tabs-panel .ui-tabs-nav a:hover span,.ui-tabs-panel .ui-tabs-nav a:focus span {
+background-image:none;
+}
+
+.ui-tabs-panel .ui-tabs-panel {
+width:100%;
+clear:both;
+}
